@@ -1,0 +1,270 @@
+DistributePowers(
+    [Mul(
+        AstMul(
+                Poly(AstLeaf { index: 0, rotation: Rotation(0) }), 
+                Add(
+                    Add(
+                        Poly(AstLeaf { index: 1, rotation: Rotation(0) }), 
+                        Poly(AstLeaf { index: 2, rotation: Rotation(0) })
+                        ), 
+                    Scale(
+                        Poly(AstLeaf { index: 3, rotation: Rotation(0) }), 
+                        0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                        )
+                    )
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                ConstantTerm(0x0000000000000000000000000000000000000000000000000000000000000001), 
+                Scale(
+                    Poly(AstLeaf { index: 12, rotation: Rotation(0) }), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000)
+                ), 
+            Poly(AstLeaf { index: 9, rotation: Rotation(0) })
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Mul(
+                    AstMul(
+                        Poly(AstLeaf { index: 15, rotation: Rotation(0) }), 
+                        Poly(AstLeaf { index: 15, rotation: Rotation(0) }))
+                    ), 
+                Scale(
+                    Poly(AstLeaf { index: 15, rotation: Rotation(0) }), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Poly(AstLeaf { index: 11, rotation: Rotation(0) })
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Poly(AstLeaf { index: 13, rotation: Rotation(0) }), 
+                Scale(
+                    Poly(AstLeaf { index: 12, rotation: Rotation(-6) }), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Poly(AstLeaf { index: 9, rotation: Rotation(0) })
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Poly(AstLeaf { index: 14, rotation: Rotation(0) }), 
+                Scale(
+                    Poly(AstLeaf { index: 13, rotation: Rotation(-6) }), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Poly(AstLeaf { index: 9, rotation: Rotation(0) })
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Poly(AstLeaf { index: 15, rotation: Rotation(0) }), 
+                Scale(
+                    Poly(AstLeaf { index: 14, rotation: Rotation(-6) }), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Poly(AstLeaf { index: 9, rotation: Rotation(0) })
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Mul(
+                    AstMul(
+                        Poly(AstLeaf { index: 12, rotation: Rotation(1) }), 
+                        Add(
+                            Add(
+                                Poly(AstLeaf { index: 1, rotation: Rotation(0) }), 
+                                Mul(
+                                    AstMul(
+                                        ConstantTerm(0x0b75fd95f25e73d69e342cff1221046964b5fed8eec81ce568931ac7b45a24f6), 
+                                        Poly(AstLeaf { index: 5, rotation: Rotation(0) })
+                                        )
+                                    )
+                                ), 
+                            ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                            )
+                        )
+                    ), 
+                Scale(
+                    Mul(
+                        AstMul(
+                            Poly(AstLeaf { index: 12, rotation: Rotation(0) }), 
+                            Add(
+                                Add(
+                                    Poly(AstLeaf { index: 1, rotation: Rotation(0) }), 
+                                    LinearTerm(0x0b75fd95f25e73d69e342cff1221046964b5fed8eec81ce568931ac7b45a24f6)
+                                    ), 
+                                ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                                )
+                            )
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Add(
+                ConstantTerm(0x0000000000000000000000000000000000000000000000000000000000000001), 
+                Scale(
+                    Add(
+                        Poly(AstLeaf { index: 11, rotation: Rotation(0) }), 
+                        Poly(AstLeaf { index: 10, rotation: Rotation(0) })
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000)
+                )
+            )
+        ),
+    Mul(
+        AstMul(
+            Add(
+                Mul(
+                    AstMul(
+                        Poly(AstLeaf { index: 13, rotation: Rotation(1) }), 
+                        Add(
+                            Add(
+                                Poly(AstLeaf { index: 2, rotation: Rotation(0) }), 
+                                Mul(
+                                    AstMul(
+                                        ConstantTerm(0x0b75fd95f25e73d69e342cff1221046964b5fed8eec81ce568931ac7b45a24f6), 
+                                        Poly(AstLeaf { index: 6, rotation: Rotation(0) })
+                                        )
+                                    )
+                                ), 
+                            ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                            )
+                        )
+                    ), 
+                Scale(
+                    Mul(
+                        AstMul(
+                            Poly(AstLeaf { index: 13, rotation: Rotation(0) }), 
+                            Add(
+                                Add(
+                                    Poly(AstLeaf { index: 2, rotation: Rotation(0) }), 
+                                    LinearTerm(0x1d19ea9f7b9c276c5d7a0e02044ec79a51b72108c1dff0b78fe8f0f7250b8f98)
+                                    ), 
+                                ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7))
+                            )
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                )
+                ), 
+            Add(
+                ConstantTerm(0x0000000000000000000000000000000000000000000000000000000000000001), 
+                Scale(
+                    Add(
+                        Poly(AstLeaf { index: 11, rotation: Rotation(0) }), 
+                        Poly(AstLeaf { index: 10, rotation: Rotation(0) })
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                )
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Mul(
+                    AstMul(
+                        Poly(AstLeaf { index: 14, rotation: Rotation(1) }), 
+                        Add(
+                            Add(
+                                Poly(AstLeaf { index: 3, rotation: Rotation(0) }),
+                                Mul(
+                                    AstMul(
+                                        ConstantTerm(0x0b75fd95f25e73d69e342cff1221046964b5fed8eec81ce568931ac7b45a24f6), 
+                                        Poly(AstLeaf { index: 7, rotation: Rotation(0) })
+                                        )
+                                    )
+                                ), 
+                            ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                            )
+                        )
+                    ), 
+                Scale(
+                    Mul(
+                        AstMul(
+                            Poly(AstLeaf { index: 14, rotation: Rotation(0) }), 
+                            Add(
+                                Add(
+                                    Poly(AstLeaf { index: 3, rotation: Rotation(0) }), 
+                                    LinearTerm(0x329945e37a87b3151a6ce3b27ebc58afe4707d18959b3fa3766d2841d22053b6)
+                                    ), 
+                                    ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                                )
+                            )
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Add(
+                ConstantTerm(0x0000000000000000000000000000000000000000000000000000000000000001), 
+                Scale(
+                    Add(
+                        Poly(AstLeaf { index: 11, rotation: Rotation(0) }), 
+                        Poly(AstLeaf { index: 10, rotation: Rotation(0) })
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                )
+            )
+        ), 
+    Mul(
+        AstMul(
+            Add(
+                Mul(
+                    AstMul(
+                        Poly(AstLeaf { index: 15, rotation: Rotation(1) }), 
+                        Add(
+                            Add(
+                                Poly(AstLeaf { index: 4, rotation: Rotation(0) }), 
+                                Mul(
+                                    AstMul(
+                                        ConstantTerm(0x0b75fd95f25e73d69e342cff1221046964b5fed8eec81ce568931ac7b45a24f6), 
+                                        Poly(AstLeaf { index: 8, rotation: Rotation(0) })
+                                        )
+                                    )
+                                ), 
+                            ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                            )
+                        )
+                    ), 
+                Scale(
+                    Mul(
+                        AstMul(
+                            Poly(AstLeaf { index: 15, rotation: Rotation(0) }), 
+                            Add(
+                                Add(
+                                    Poly(AstLeaf { index: 4, rotation: Rotation(0) }), 
+                                    LinearTerm(0x0c32f98efca6703d3135f0f0f4a91673bf5901393173756c3303c6138e8f0fda)
+                                    ), 
+                                ConstantTerm(0x232d20cd663732c1879341693bced451b28da58c3c1d91bad883a22fe31d2eb7)
+                                )
+                            )
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                ), 
+            Add(
+                ConstantTerm(0x0000000000000000000000000000000000000000000000000000000000000001), 
+                Scale(
+                    Add(
+                        Poly(AstLeaf { index: 11, rotation: Rotation(0) }), 
+                        Poly(AstLeaf { index: 10, rotation: Rotation(0) })
+                        ), 
+                    0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000
+                    )
+                )
+            )
+        )
+    ], 0x2e572b0ada9ff889bfcb8eb6cff04f5e7f95bf804f468823abb154046dd2e9f4)
