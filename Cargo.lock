@@ -513,12 +513,12 @@ version = "0.1.0"
 dependencies = [
  "halo2_proofs",
  "plotters",
+ "rand_core",
 ]
 
 [[package]]
 name = "halo2_proofs"
 version = "0.3.0"
-source = "git+https://github.com/zcash/halo2.git#ae52332c776a44e5165c4e2bda53b5c2f6e087ce"
 dependencies = [
  "blake2b_simd",
  "ff",

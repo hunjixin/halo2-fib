@@ -4,8 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [features]
-dev = ["halo2_proofs/dev-graph", "plotters"]
+default = ["halo2_proofs/dev-graph", "plotters"]
+
+[patch.crates-io]
+halo2_proofs = { path = "/home/hunjixin/code/halo2/halo2_proofs" }
 
 [dependencies]
-halo2_proofs = { git = "https://github.com/zcash/halo2.git" }
+halo2_proofs = "0.3.0"
 plotters = { version = "0.3.5", optional = true }
+
+rand_core = "0.6"
